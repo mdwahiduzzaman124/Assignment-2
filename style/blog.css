@@ -25,7 +25,7 @@ body {
   display: flex;
 }
 
-nav li {
+.nav-ul li {
   list-style: none;
 }
 
@@ -111,7 +111,111 @@ nav ul a {
   font-weight: 700;
   padding: 1rem 2rem;
 }
-#banner-btn-icon{
+#banner-btn-icon {
   padding-right: 8px;
 }
 /* banner work done */
+/* Popular tour work */
+.Popular-Tours {
+  display: flex;
+  margin-left: 19%;
+  margin-right: 19%;
+  margin-top: 100px;
+}
+.popular-tour-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.popular-tour-discription {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+.popular-tour-li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 16px 0;
+  margin-left: 20px;
+}
+#middle-tour {
+  padding: 0;
+}
+
+.last-discription-popular-tour {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.read-more {
+  border-radius: 8px;
+  background: #ff5400;
+  border: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 14px 35px;
+  margin-top: 36px;
+}
+
+.Popular-Tours img {
+  padding-left: 80px;
+}
+
+@media screen and (max-width: 576px) {
+  .nav,
+  .l-nav,
+  .options-inside-banner,
+  .Popular-Tours {
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 10px;
+  }
+  .banner-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    padding-top: 32px;
+  }
+  .banner-discription {
+    padding-top: 8px;
+    height: 63px;
+  }
+  .banner {
+    width: 90%;
+    margin-bottom: 0;
+  }
+  .options-inside-banner {
+    margin: 0;
+    gap: 0;
+    width: 85%;
+    margin-left: 20px;
+  }
+  .option,
+  .banner-btn {
+    width: 255px;
+  }
+  .popular-tour-title {
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 24px;
+    margin-top: 0;
+  }
+  .Popular-Tours img{
+    width: 100%;
+    padding: 0;
+  }
+  .Popular-Tours{
+    /* padding: 0; */
+    margin: 0 20px;
+  }
+}
