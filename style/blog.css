@@ -450,6 +450,10 @@ footer {
   font-weight: 300;
 }
 @media screen and (max-width: 576px) {
+  header , main , footer{
+    max-width: 375px;
+  }
+
   .nav,
   .l-nav,
   .options-inside-banner,
