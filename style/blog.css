@@ -1,11 +1,12 @@
 /* shared styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 body {
   font-family: "Mulish", sans-serif;
-  /* font-family: 'Work Sans', sans-serif; */
 }
 /* header work */
 /* Nav work */
@@ -159,9 +160,8 @@ nav ul a {
   background: #ff5400;
   border: 0;
   color: #fff;
-  text-align: center;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 500;
   padding: 14px 35px;
   margin-top: 36px;
 }
@@ -238,7 +238,7 @@ nav ul a {
   gap: 24px;
   margin-top: 48px;
 }
-#price-tag{
+#price-tag {
   margin-top: 24px;
   display: flex;
   justify-content: center;
@@ -284,6 +284,40 @@ nav ul a {
   line-height: 26px;
   padding: 16px 55px 32px 32px;
 }
+/* why choose us work done */
+/* video container work done */
+.video-container {
+  display: flex;
+  margin-left: 19%;
+  margin-right: 19%;
+  margin-top: 100px;
+  gap: 28px;
+}
+.video-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+}
+.video-description {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 24px 0;
+}
+.video-container li {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.video-li {
+  padding-top: 16px;
+}
+#see-more-btn {
+  margin-top: 32px;
+}
 @media screen and (max-width: 576px) {
   .nav,
   .l-nav,
@@ -293,7 +327,8 @@ nav ul a {
   .first,
   .second,
   .third,
-  .why-container {
+  .why-container,
+  .video-container {
     flex-direction: column;
     padding-top: 10px;
     gap: 10px;
@@ -391,9 +426,36 @@ nav ul a {
   }
   .why {
     margin: 0;
+    max-width: 380px;
   }
   .why-container {
     margin-top: 16px;
     padding: 0 16px;
+  }
+  #price-tag {
+    margin-top: 16px;
+    display: block;
+  }
+  .video-container {
+    margin: 0;
+    max-width: 380px;
+  }
+  .video-container li{
+    margin-left: 20px;
+  }
+  .video IMG {
+    width: 90%;
+    margin-left: 15px;
+  }
+  .video-details{
+    margin: 0 20px;
+  }
+  .video-title {
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 16px;
   }
 }
