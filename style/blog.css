@@ -358,6 +358,7 @@ nav ul a {
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
   border: 0;
+  padding-left: 20px;
   width: 100%;
 }
 #email-news {
